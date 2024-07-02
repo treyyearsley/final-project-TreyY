@@ -44,6 +44,10 @@ You are running a race and decide tou want to clock your time at a certain point
 ## Student Problem
 Please attempt the problem on your own before looking at the solution.
 
+You and a friend really enjoy looking for shed antlers in the spring. You each keep a tally of how many you find each week. You are able to shed hunt for ten weeks before it is too hot outside. 
+Please create a set for you and a set for your friends and store how many antlers you each found in the appropriate set. Use the quantities as follows. You: 6, 14, 1, 5, 10, 3, 12, 7, 9, 11) Friend: (8, 9, 7, 5, 10, 3, 15, 6, 4, 14).
+Find out by using the intersect function if you and you friend found the same amount in a particular week and use the union function to find all common data between the two sets.
+
 [Student Problem](ds2-problem)
 
 
