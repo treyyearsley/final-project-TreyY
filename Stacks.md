@@ -19,7 +19,7 @@ Stacks do have a place. They are very helpful for features such as the back butt
 | push(value)            | Adds "value" to the back of the stack.                                | mySet.Push(value)          | O(1)|
 | pop()                  | Removes and returns the value the is at the back or top of the stack. | var Value = mySet.pop()    | O(1)|
 | empty()                | Returns "True" if the stack is empty or has a length of zero.         | if (myStack.Count == 0)    | O(1)|
-| size()                 | Return the size or number of items in the stack.                      | var length = myStack.Count | O(1)|
+| Count()                | Return the size or number of items in the stack.                      | var length = myStack.Count | O(1)|
 
 
 ## Example Problem
@@ -29,7 +29,8 @@ You are writing a sentence with twelve words in it. You add the twelve words usi
 ## Student Problem
 Please attempt the problem on your own before looking at the solution.
 
-
+You like to lift weights and decide you want to track your progress on the bench press. You track your last set for each workout. When you track it is formatted like this "225 x 10". Weight by the number of reps. After ten weeks of tracking you decide to look back at your last five weeks and see what progress you have made.
+Use the "Count" Operation to make sure you have tracked ten weeks then use the "Pop" Operation to remove and store the Last five entries. Then display those entries.
 
 [Student Problem](ds1-problem)
 
