@@ -25,7 +25,11 @@ If a value is added to a balanced binary search tree that makes the tree unbalan
 </br></br>
 ![Balanced Binary Search Tree Image/Unbalanced](images/avl_tree_unbalanced.jpg)
 </br></br>
+Unbalanced
+</br></br>
 ![Balanced Binary Search Tree Image/Rebalanced](images/avl_tree_rebalanced.jpg)
+</br></br>
+Rebalanced
 </br></br>
 Images found at https://byui-cse.github.io/cse212-csharp/lesson09/prepare
 
