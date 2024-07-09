@@ -1,6 +1,6 @@
 # Stacks
 ## What is a Stack?
-A stack is a data structure that is characterized by the way data is stored and accessed. Stacks use a "Last in, First Out" rule which is just as it sounds. The last piece of data to be entered into the stack will be the first to be removed.
+A stack is a data structure that is characterized by the way data is stored and accessed. Stacks use a "Last in, First Out" rule which is just as it sounds. The last piece of data to be entered into the stack will be the first to be removed. Think of a stack of pancakes. As you cook the pancakes you will put them on a plate. The pancakes that are cooked first will be at the bottom of the stack while the pancakes cooked last will be at the top. Stacks in programming are no different. The values added first will be at the front or bottom of the stack and the values added last will be at the back or front of the stack.
 
 ## How does a Stack work?
 
