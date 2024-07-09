@@ -50,6 +50,7 @@ Images found at https://byui-cse.github.io/cse212-csharp/lesson09/prepare
 Please see Example problem to learn how to Insert into and Traverse through a tree.
 
 This problem is simply creating a Binary Search Tree, Adding Values, then traversing through the tree and printing the values.
+
 [Example Problem](ds3-example)
 
 ## Student Problem
@@ -93,4 +94,5 @@ A subtree is a subset of a tree made when a new node is selected to be the root 
 A tree is balanced when the height of a tree is the same from the root node to each of the leaf nodes.
 ### Red Black Tree
 A binary search tree that is self-balancing
-
+### AVL Tree
+An AVL tree checks the height everytime a modification is made. If it is unbalanced then the algorithms will rebalance the tree.
