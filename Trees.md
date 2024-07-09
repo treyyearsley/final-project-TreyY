@@ -17,7 +17,17 @@ A Binary Search Tree is Tree that has  special set of rules for how the data is 
 Image found at https://www.javatpoint.com/binary-search-tree
 
 ## Balanced Binary Search Trees
+A Balanced Binary Search Tree is a Binary Search Tree that is balanced. This means that the height of one subtree will not be dramatically different than the other. There are algorthms that have been written to ensure that a Balanced Binary Search Tree will remain balanced will new data is entered and if it is unbalanced these algorithms with rebalance the tree. Two of the algorithms are Red Black Trees and AVL Trees.
+### Red BLack Tree
 
+### AVL Tree
+If a value is added to a balanced binary search tree that makes the tree unbalanced the algorithm will rotate the node. It will turn the new node into a leaf node and keep the older nodes as leaf nodes as well. Otherwise one of the leaf nodes would become a parent making the tree unbalanced. See the images below for more details.
+</br></br>
+![Balanced Binary Search Tree Image/Unbalanced](images/avl_tree_unbalanced.jpg)
+</br></br>
+![Balanced Binary Search Tree Image/Rebalanced](images/avl_tree_rebalanced.jpg)
+</br></br>
+Images found at https://byui-cse.github.io/cse212-csharp/lesson09/prepare
 
 ## Trees in C# and Efficiency of Common Set Operations
 | Common Tree Operation | Description                                                                                                       | Performance/ Big O Notation                                                                                                                  |
