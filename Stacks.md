@@ -6,12 +6,12 @@ A stack is a data structure that is characterized by the way data is stored and 
 
 
 ## Stacks in C# and Efficiency of Common Set Operations
-| Common Stack Operation | Description                           | C# Code               | Performance/ Big O Notation                                                          |
-|------------------------|---------------------------------------|-----------------------|--------------------------------------------------------------------------------------|
-| add(value)             | Adds "value" to the set               | mySet.add(value)      | O(1) - Performance of hashing the value as long as there is good confilct resolution |
-| remove(value)          | Remove "value" from the Set           | mySet.remove(value)   | O(1)- Performance of hashing the value as long as there is good confilct resolution  |
-| member(value)          | Determine if "value" is in the Set    | mySet.Contains(value) | O(1)- Performance of hashing the value as long as there is good confilct resolution  |
-| size()                 | Return the number of items in the set | mySet.Count           | O(1)- Performance returing the size of the set                                       |
+| Common Stack Operation | Description                                                           | C# Code                    | Performance/ Big O Notation              |
+|------------------------|-----------------------------------------------------------------------|----------------------------|------------------------------------------|
+| push(value)            | Adds "value" to the back of the stack.                                | mySet.Push(value)          | O(1)|
+| pop()                  | Removes and returns the value the is at the back or top of the stack. | var Value = mySet.pop()    | O(1)|
+| empty()                | Returns "True" if the stack is empty or has a length of zero.         | if (myStack.Count == 0)    | O(1)|
+| size()                 | Return the size or number of items in the stack.                      | var length = myStack.Count | O(1)|
 
 ## Applications of Stacks
 
