@@ -37,7 +37,7 @@ Images found at https://byui-cse.github.io/cse212-csharp/lesson09/prepare
 | Common Tree Operation | Description                                                                                                       | Performance/ Big O Notation                                                                                                                  |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | insert (value)        | Insert a value into the tree.                                                                                     | O(log n) - Uses recursion to find the next available node to store data in.                                                                  |
-| remove(value)         | Remove a value from a tree.                                                                                       | O(log n) - Uses recursion to search the tree for a claue then removes that value.                                                            |
+| remove(value)         | Remove a value from a tree.                                                                                       | O(log n) - Uses recursion to search the tree for a value then removes that value.                                                            |
 | contains(value)       | Determines if a value exists within the tree.                                                                     | O(log n) - Uses recursion to search the tree for a value.                                                                                    |
 | traverse_forward      | Visits all objects in the tree from smallest to largest.                                                          | O(n) - Uses recursion to traverse the left subtree then the right subtree.                                                                   |
 | traverse_reverse      | Visits all objects in the tree from largest to smallest                                                           | O(n) - Uses recursion to traverse the right subtree then the left subtree.                                                                   |
@@ -49,12 +49,16 @@ Images found at https://byui-cse.github.io/cse212-csharp/lesson09/prepare
 
 
 ## Example Problem
+Please see Example problem to learn how to Insert into and Traverse through a tree.
+
+This problem is simply creating a Binary Search Tree, Adding Values, then traversing through the tree and printing the values.
 [Example Problem](ds3-example)
 
 ## Student Problem
 Please attempt the problem on your own before looking at the solution.
 
-
+You like to go fishing and you want to track the quantities of fish you catch. Create a new Binary Search Tree, insert you quantities of fish into the tree, then traverse through the tree and print the results to the screen.
+Use the example as a guideline to complete this problem.
 
 [Student Problem](ds3-problem)
 
