@@ -2,7 +2,17 @@
 ## What is a Tree?
 A tree is a data structure that uses nodes to store data. Every tree will have a root node and other nodes that branch off the root node. These nodes are connected together by pointers. There are three tpyes of Trees that we will look as: Binary Trees, Binary Search Trees, and Balanced Binary Search Trees.
 
-## Binary Tree
+## Binary Trees
+A binary tree is a tree that will connect to no more than two other nodes. In other words the root node will only have two children nodes. The root node is the first node on a tree or the top node. A parent node is a node that has connected nodes. The node connected to the parent node is called a child. Nodes that do not have children nodes are called leaves. The left and right branches of the tree are each subtrees. Please see the image below for more details.
+</br></br>
+![Binary Tree Image](images/binary_tree.jpg)
+</br></br>
+Image found at https://byui-cse.github.io/cse212-csharp/lesson09/prepare
+
+## Binary Search Trees
+
+
+## Balanced Binary Search Trees
 
 
 ## Trees in C# and Efficiency of Common Set Operations
