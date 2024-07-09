@@ -25,12 +25,12 @@ The first way to deal with conflicts in sets is called **open addressing**. Open
 The next method is called **chaining**. Chaining will try to resolve the same issue mentioned above which is when data is entered the hashing function tries to store the value in an already filled index. The difference is chaining will store a list of value at that index. This will reduce the amount of residual conflicts that are created. For both of these methods the performance is affected. Instead of O(1) it will now be O(n) because you will have to search through many different indexes or lists of value to find the correct value.
 
 ## Sets in C# and Efficiency of Common Set Operations
-|Common BST Operation| Description                           | C# Code               | Performance/ Big O Notation                                                          |
-|--------------------|---------------------------------------|-----------------------|--------------------------------------------------------------------------------------|
-|add(value)| Adds "value" to the set               | mySet.add(value)      | O(1) - Performance of hashing the value as long as there is good confilct resolution |
-|remove(value)| Remove "value" from the Set           | mySet.remove(value)   | O(1)- Performance of hashing the value as long as there is good confilct resolution  |
-|member(value)| Determine if "value" is in the Set    | mySet.Contains(value) | O(1)- Performance of hashing the value as long as there is good confilct resolution  |
-|size()| Return the number of items in the set | mySet.Count           | O(1)- Performance returing the size of the set                                       |
+| Common Stack Operations | Description                           | C# Code               | Performance/ Big O Notation                                                          |
+|-------------------------|---------------------------------------|-----------------------|--------------------------------------------------------------------------------------|
+| add(value)              | Adds "value" to the set               | mySet.add(value)      | O(1) - Performance of hashing the value as long as there is good confilct resolution |
+| remove(value)           | Remove "value" from the Set           | mySet.remove(value)   | O(1)- Performance of hashing the value as long as there is good confilct resolution  |
+| member(value)           | Determine if "value" is in the Set    | mySet.Contains(value) | O(1)- Performance of hashing the value as long as there is good confilct resolution  |
+| size()                  | Return the number of items in the set | mySet.Count           | O(1)- Performance returing the size of the set                                       |
 
 ## Applications of Sets
 * Determine unique values. Sets don't allow duplicates so if you need to find only unique values a set is a good option.
