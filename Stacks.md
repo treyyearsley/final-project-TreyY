@@ -37,3 +37,13 @@ Please attempt the problem on your own before looking at the solution.
 [Student Solution](ds1-solution)
 
 ## Important Terms
+### Stack
+A stack is a data structure that follows a "Last In, First Out" rule. Stacks are used to remember previous data or value or to reverse data.
+### Front
+The front of a stack refers to the location of the first item or value added to a stack. Image the bottom of a stack of pancakes.
+### Back
+The back of a stack refers to the location of the last item or value added to a stack. Imagine the top of a stack of pancakes.
+### Push
+The "Push" operation will add a new value to the back of a stack.
+### Pop
+The "Pop" operation will remove and return the value found at the back of a stack.
