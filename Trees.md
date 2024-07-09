@@ -10,7 +10,11 @@ A binary tree is a tree that will connect to no more than two other nodes. In ot
 Image found at https://byui-cse.github.io/cse212-csharp/lesson09/prepare
 
 ## Binary Search Trees
-
+A Binary Search Tree is Tree that has  special set of rules for how the data is stored within the tree. All no data that is entered into the tree is first compared to the root node and then to the parent node. Values that are greater than the root node are stored in the right subtree and values that are less than the root are stored in the left subtree. The same rules are then applies to the parent node. Greater values will be set to the right and less values will be set to the left. See the image below for more details.
+</br></br>
+![Binary Search Tree Image](images/binary-search-tree1.png)
+</br></br>
+Image found at https://www.javatpoint.com/binary-search-tree
 
 ## Balanced Binary Search Trees
 
