@@ -23,7 +23,7 @@ Stacks do have a place. They are very helpful for features such as the back butt
 
 
 ## Example Problem
-
+You are writing a sentence with twelve words in it. You add the twelve words using the "Push" operation. You decide you don't like how you worded the last to words so you remove them using the "Pop" operation. You will then add two new words to replace the removed ones.
 
 ## Student Problem
 Please attempt the problem on your own before looking at the solution.
