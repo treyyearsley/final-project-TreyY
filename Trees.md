@@ -19,7 +19,8 @@ Image found at https://www.javatpoint.com/binary-search-tree
 ## Balanced Binary Search Trees
 A Balanced Binary Search Tree is a Binary Search Tree that is balanced. This means that the height of one subtree will not be dramatically different than the other. There are algorthms that have been written to ensure that a Balanced Binary Search Tree will remain balanced will new data is entered and if it is unbalanced these algorithms with rebalance the tree. Two of the algorithms are Red Black Trees and AVL Trees.
 ### Red BLack Tree
-
+A Red Black Tree is a true that uses an algorithm to balance itself. Each node in a Red Black tree is also assigned a color. Each node will be either red or black. The root node will always be black. Red nodes will not have red children nodes. Every path from a node to its descendant leaf nodes has the same number of black nodes.All leaf nodes are black.
+Using these color rules it ensures that the tree will stay balanced.
 ### AVL Tree
 If a value is added to a balanced binary search tree that makes the tree unbalanced the algorithm will rotate the node. It will turn the new node into a leaf node and keep the older nodes as leaf nodes as well. Otherwise one of the leaf nodes would become a parent making the tree unbalanced. See the images below for more details.
 </br></br>
@@ -44,9 +45,6 @@ Images found at https://byui-cse.github.io/cse212-csharp/lesson09/prepare
 | height(node)          | Determines the height of the tree. If the overall height of the tree is needed, the root node should be provided. | O(n) - Uses recursion to find the height of the left and the right subtrees. The maximum height is returned. Add one more for the root node. |
 | size()                | Returns the size of the tree.                                                                                     | O(1) - The size is maintained within the BST class.                                                                                          |
 | empty()               | Returns true if the root node is empty.                                                                           | O(1) - Comparing the root node or the size.                                                                                                  |
-
-## Applications of Trees
-
 
 ## Example Problem
 Please see Example problem to learn how to Insert into and Traverse through a tree.
