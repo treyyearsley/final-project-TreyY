@@ -5,7 +5,8 @@ A stack is a data structure that is characterized by the way data is stored and 
 ## How does a Stack work?
 As mentioned above when adding to or removing data from a stack it will use a "Last In, First Out" rule. See the image below for more details. To add to a stack you will use the "Push" operation. This will add a value to the top or back of the set. This is the equivalent of the "Add" operation used for lists. The remove a value you will use the "Pop" operation. The "Pop" operation will remove and return the value found at the back of the stack. Much like taking the pancake at the top of the stack.
 </br></br>
-![Stacks Image (Found at https://code-maze.com/stack-csharp/)](images/StackWithSteps.drawio.png)
+![Stacks Image](images/StackWithSteps.drawio.png)
+Found at https://code-maze.com/stack-csharp/
 
 ## The Issue with Stacks
 Because stacks use "Last In, First Out" the values found at the bottom of the stack may take a long time to be used. For this reason stacks aren't useful if you need to rotate through the data. For example, if a company buys produce it would not be ideal to use a stack to store this information. The produce that is the freshest will be sold first leaving the older produce to sit and get even older. In this scenario the old produce would likely end up rotting because only the newest produce is being used.
