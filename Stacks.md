@@ -7,6 +7,11 @@ As mentioned above when adding to or removing data from a stack it will use a "L
 </br></br>
 ![Stacks Image (Found at https://code-maze.com/stack-csharp/)](images/StackWithSteps.drawio.png)
 
+## The Issue with Stacks
+Because stacks use "Last In, First Out" the values found at the bottom of the stack may take a long time to be used. For this reason stacks aren't useful if you need to rotate through the data. For example, if a company buys produce it would not be ideal to use a stack to store this information. The produce that is the freshest will be sold first leaving the older produce to sit and get even older. In this scenario the old produce would likely end up rotting because only the newest produce is being used.
+
+## Applications of Stacks
+Stacks do have a place. They are very helpful for features such as the back button, back space, and undo buttons. When you use these features you are telling the computer to go back to the last thing you did or erase the last thing you added. In a stack this information woukld be stored at the back of the stack so it is easy for the computer to "Pop" the last item. This will undo the last item that was added or go back to the last page that was visited. Stacks are very useful when we are trying to remember where we have been.
 
 ## Stacks in C# and Efficiency of Common Set Operations
 | Common Stack Operation | Description                                                           | C# Code                    | Performance/ Big O Notation              |
@@ -15,8 +20,6 @@ As mentioned above when adding to or removing data from a stack it will use a "L
 | pop()                  | Removes and returns the value the is at the back or top of the stack. | var Value = mySet.pop()    | O(1)|
 | empty()                | Returns "True" if the stack is empty or has a length of zero.         | if (myStack.Count == 0)    | O(1)|
 | size()                 | Return the size or number of items in the stack.                      | var length = myStack.Count | O(1)|
-
-## Applications of Stacks
 
 
 ## Example Problem
