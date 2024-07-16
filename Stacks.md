@@ -15,7 +15,7 @@ Because stacks use "Last In, First Out" the values found at the bottom of the st
 ## Applications of Stacks
 Stacks do have a place. They are very helpful for features such as the back button, back space, and undo buttons. When you use these features you are telling the computer to go back to the last thing you did or erase the last thing you added. In a stack this information woukld be stored at the back of the stack so it is easy for the computer to "Pop" the last item. This will undo the last item that was added or go back to the last page that was visited. Stacks are very useful when we are trying to remember where we have been.
 
-## Stacks in C# and Efficiency of Common Set Operations
+## Stacks in C# and Efficiency of Common Stack Operations
 | Common Stack Operation | Description                                                           | C# Code                    | Performance/ Big O Notation              |
 |------------------------|-----------------------------------------------------------------------|----------------------------|------------------------------------------|
 | push(value)            | Adds "value" to the back of the stack.                                | mySet.Push(value)          | O(1)|
